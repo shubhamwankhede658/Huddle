@@ -27,7 +27,7 @@ export async function ensuerUserProfile( neon : {
       id:existing.id,
       username:existing.username,
       displayName: neon.name,
-      avatartUrl:neon.image ?? undefined
+      avatarUrl: neon.image ?? undefined
     };
   }
   // if not we will create
