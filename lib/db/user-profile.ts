@@ -42,6 +42,6 @@ export async function ensuerUserProfile( neon : {
     id:row.id,
     username: row.username,
     displayName: neon.name,
-    avatartUrl:neon.image ?? undefined
+    avatarUrl:neon.image ?? undefined
   }
 }
