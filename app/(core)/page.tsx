@@ -9,6 +9,7 @@ import { PostCard } from "@/components/feed/post-card";
 import { listTags } from "@/lib/db/queries";
 import { getTrendingToday } from "@/lib/trending";
 import { RightTrending } from "@/components/layout/right-trending";
+export const dynamic = "force-dynamic";
 
 export default async function Home({
   searchParams,

@@ -13,6 +13,8 @@ import { getPostScore } from "@/lib/db/queries";
 import { getSessionUser } from "@/lib/auth";
 import { CommentComposer } from "@/components/post/comment-composer";
 
+export const dynamic = "force-dynamic";
+
 
 export default async function PostPage({
     params,
