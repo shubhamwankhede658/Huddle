@@ -8,6 +8,7 @@ export const auth = createNeonAuth({
     baseUrl:process.env.NEON_AUTH_BASE_URL!,
     cookies:{
         secret:process.env.NEON_AUTH_BASE_SECRET!,
+        domain: process.env.NEXT_PUBLIC_APP_URL!,
     }
 });
 

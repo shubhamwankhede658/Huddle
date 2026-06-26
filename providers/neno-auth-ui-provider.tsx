@@ -7,7 +7,7 @@ const authClient = createAuthClient(process.env.NEXT_PUBLIC_NEON_AUTH_BASE_URL!)
 
 export function NeonAuthProvider({children}:{children:React.ReactNode}){
     return(
-        <NeonAuthUIProvider authClient={authClient} defaultTheme="dark">
+        <NeonAuthUIProvider authClient={authClient} defaultTheme="dark" >
           
             {children}
         </NeonAuthUIProvider>
